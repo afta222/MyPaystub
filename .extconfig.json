@@ -1,0 +1,38 @@
+{
+  "type": "abaprep",
+  "BSPName": "HCMFAB_PAY_MON",
+  "component": "HCMFAB_PAY_MON%2fComponent.js",
+  "manifest": "HCMFAB_PAY_MON%2fmanifest.json",
+  "versionJsonPath": "HCMFAB_PAY_MON%2fversion.json",
+  "controllers": {
+    "App": "HCMFAB_PAY_MON%2fcontroller%2fApp.controller.js",
+    "DisplayPDF": "HCMFAB_PAY_MON%2fcontroller%2fDisplayPDF.controller.js",
+    "NotFound": "HCMFAB_PAY_MON%2fcontroller%2fNotFound.controller.js",
+    "PaystubsList": "HCMFAB_PAY_MON%2fcontroller%2fPaystubsList.controller.js"
+  },
+  "views": {
+    "App": "HCMFAB_PAY_MON%2fview%2fApp.view.xml",
+    "DisplayPDF": "HCMFAB_PAY_MON%2fview%2fDisplayPDF.view.xml",
+    "NotFound": "HCMFAB_PAY_MON%2fview%2fNotFound.view.xml",
+    "PaystubsList": "HCMFAB_PAY_MON%2fview%2fPaystubsList.view.xml",
+    "PaystubsListForPeriod": "HCMFAB_PAY_MON%2fview%2fPaystubsListForPeriod.view.xml"
+  },
+  "fragments": {
+    "PaystubGroupDialog": "HCMFAB_PAY_MON%2fview%2ffragment%2fPaystubGroupDialog.fragment.xml",
+    "PaystubSortDialog": "HCMFAB_PAY_MON%2fview%2ffragment%2fPaystubSortDialog.fragment.xml"
+  },
+  "system": {
+    "name": "FGS",
+    "proxyUrlPrefix": "/destinations/FGS",
+    "path": "/sap/bc/adt",
+    "url": "/destinations/FGS/sap/bc/adt",
+    "wattUsage": "odata_abap,dev_abap,bsp_execute_abap, ui5_execute_abap",
+    "entryPath": "/sap/bc/adt",
+    "additionalData": []
+  },
+  "minUI5Version": "1.44.51",
+  "namespace": "hcm.fab.mypaystubs",
+  "parentResourceRootUrl": "/destinations/FGS/sap/bc/ui5_ui5/sap/HCMFAB_PAY_MON",
+  "resourceBundle": "i18n/i18n.properties",
+  "shouldLinkComponentToManifest": true
+}
